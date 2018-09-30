@@ -1,7 +1,7 @@
-var input = document.querySelector("#num");
-var btn = document.querySelector("#btn");
-var p = document.querySelector("#comment");
-var img = document.querySelector("img");
+let input = document.querySelector("#num");
+let btn = document.querySelector("#btn");
+let p = document.querySelector("#comment");
+let img = document.querySelector("img");
 
 function checkNum() {
     if(input.value === "6"){
