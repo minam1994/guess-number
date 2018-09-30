@@ -1,0 +1,48 @@
+body, html{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-size: cover;
+    background: #3CA55C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    color: #083108;
+}
+
+input{
+    width: 160px;
+    height: 25px;
+    font-size: 20px;
+    color: green;
+    padding: 3px;
+}
+
+#btn{
+    font-size: 15px;
+    padding: 5px;
+    background-color: #69ad69;
+    text-transform: uppercase;
+}
+
+#num, #btn{
+    font-weight: bold;
+    border: solid 2px green;
+}
+
+#btn:hover{
+    background-color: #306530;
+}
+
+#comment{
+    font-size: 25px;
+    color: #083108;
+}
+
+img{
+    width: 45%;
+}
